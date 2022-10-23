@@ -1,0 +1,54 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form-label {
+    text-align: center;
+    color: white;
+    margin: 0 15px;
+    padding: 10px 0;
+
+}
+
+.row {
+    display: flex;
+    justify-content:center;
+    height: 100vh;
+    background-color: white;
+
+
+}
+
+.cal-box {
+    padding: 20px 0 0 0 ;
+    width: 400px;
+    background-color: gray;
+    box-shadow: 0 0 12px black;
+
+}
+
+.btn-row {
+    
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+
+}
+
+.cBtn {
+    border: 1px solid gray;
+    color: white;
+    background-color: cadetblue;
+    font-size: 16px;
+    height: 100px;
+
+
+}
+
+#equal {
+    grid-area: 4/4/6/5;
+    height: 100%;
+    background-color: orange;
+}
